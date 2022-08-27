@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.app-body{
+  color:azure;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  background: url(../photo/weather-forecast-background.jpg);
+  background-size: cover;
+}
