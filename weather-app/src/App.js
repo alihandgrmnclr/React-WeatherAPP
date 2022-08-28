@@ -59,9 +59,9 @@ function App() {
                   <h3>{weather.data.city_name}, {weather.data.country_code}</h3>
                 </div>
                 <div className="col-sm-12">
-                  <div className="row">
+                  <div className="row justify-content-center">
                     {weather?.data?.data.map((value, index) => (
-                      <div className="col-sm-3 mb-4" key={index}>
+                      <div className="col-sm-3 mb-4 " key={index}>
                         <div >{value.datetime}</div>
                         {getDay(index)}<br />
                         Average<b> {value.temp}</b> °C <br />
