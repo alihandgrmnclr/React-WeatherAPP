@@ -2,12 +2,40 @@
   text-align: center;
 }
 
-.app-body{
-  color:azure;
+.app-body {
+  color: azure;
   justify-content: center;
   align-items: center;
   display: flex;
   height: 100vh;
   background: url(../photo/weather-forecast-background.jpg);
-  background-size: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.form-control{
+  max-width: 500px;
+}
+
+#myContainer{
+  background-color: rgba(89, 89, 89, 0.689);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #myContainer {
+    background-color: rgba(89, 89, 89, 0.689);
+    width: 100%;
+    margin-top: 50%;
+    height: auto;
+  }
+  .app-body{
+    height: 100%;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+
+  }
 }
