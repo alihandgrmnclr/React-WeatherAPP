@@ -26,6 +26,7 @@
 @media screen and (max-width: 600px) {
   #myContainer {
     background-color: rgba(89, 89, 89, 0.689);
+    border-radius: 0px;
     width: 100%;
     margin-top: 50%;
     height: auto;
