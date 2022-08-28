@@ -16,7 +16,7 @@ Please get in contact with me on alihandegirmenciler@gmail.com when you find bug
 https://alihan-my-weather-app.netlify.app/
 
 ### Web
-![live preview web](./photo/web.gif)
+![live preview web](./weather-app/photo/web.gif)
 
 ### Mobile
-![live preview mobile](./photo/mobile.gif)
+![live preview mobile](./weather-app/photo/mobile.gif)
